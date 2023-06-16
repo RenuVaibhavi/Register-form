@@ -1,0 +1,348 @@
+.registerform{
+    position: relative;
+width: 1512px;
+height: 982px;
+
+background: #FFFFFF;
+}
+.alreadyanuser{
+    position: absolute;
+width: 282px;
+height: 32px;
+left: 1020px;
+top: 888px;
+
+/* Paragraph 01 */
+margin: 0px;
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+}
+.leftseicton{
+    position: absolute;
+width: 756px;
+height: 982px;
+left: 0px;
+top: 0px;
+
+background: linear-gradient(180deg, #D97642 0%, #FFBD9A 100%);
+}
+.logo{
+    position: absolute;
+width: 216px;
+height: 98.32px;
+left: calc(50% - 216px/2);
+top: calc(50% - 98.32px/2 - 6.84px);
+
+background: url(images/Logo.png);
+}
+.design{
+    position: absolute;
+    width: 756px;
+    height: 982px;
+    left: 0px;
+    top: 0px;
+    
+    background: url(images/v1056-0089a\ 1.png); 
+}
+.regiteryouraccount{
+    
+position: absolute;
+width: 375px;
+height: 42px;
+left: calc(50% - 375px/2 + 396.5px);
+top: 59px;
+margin: 0px;
+/* Header 01 */
+
+font-family: 'Laila';
+font-style: normal;
+font-weight: 700;
+font-size: 32px;
+line-height: 42px;
+/* identical to box height, or 131% */
+
+letter-spacing: 0.04em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+}
+.inputfield{
+    display: flex;
+flex-direction: column;
+align-items: flex-start;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 94px;
+left: calc(50% - 393px/2 + 405.5px);
+top: 138px;
+
+}
+.inputfield1{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 393px;
+    height: 94px;
+    left: calc(50% - 393px/2 + 405.5px);
+    top: 268px;
+}
+.inputfield2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 393px;
+    height: 94px;
+    left: calc(50% - 393px/2 + 405.5px);
+    top: 398px;
+}
+.inputfield3{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 10px;
+    
+    position: absolute;
+    width: 393px;
+    height: 94px;
+    left: calc(50% - 393px/2 + 405.5px);
+    top: 528px;
+}
+.name{
+    width: 104px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+input{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 18px 20px;
+gap: 10px;
+
+width: 393px;
+height: 52px;
+
+background: #FFFFFF;
+/* Secondary color */
+
+border: 1px solid #1F1F1F;
+border-radius: 9px;
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.bycontinuing{
+    position: absolute;
+width: 393px;
+height: 64px;
+left: 965px;
+top: 636px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* or 160% */
+
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+}
+.signup{
+    display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 0px;
+gap: 10px;
+
+position: absolute;
+width: 393px;
+height: 54px;
+left: 963px;
+top: 734px;
+
+/* Accent color 1 */
+
+background: #D97642;
+border-radius: 8px;
+}
+.text{
+    width: 73px;
+height: 48px;
+
+font-family: 'Hammersmith One';
+font-style: normal;
+font-weight: 400;
+font-size: 20px;
+line-height: 48px;
+/* identical to box height, or 240% */
+
+letter-spacing: 0.02em;
+
+/* Primary color */
+
+color: #FFFFFF;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.loginwithsocial{
+    box-sizing: border-box;
+
+/* Auto layout */
+
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 3px 15px;
+gap: 16px;
+
+position: absolute;
+width: 377px;
+height: 60px;
+left: calc(50% - 377px/2 + 395.5px);
+top: 814px;
+
+border-radius: 12px;
+}
+.signupwith{
+    width: 119px;
+height: 32px;
+
+/* Paragraph 01 */
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 32px;
+/* identical to box height, or 160% */
+margin: 0px;
+letter-spacing: 0.02em;
+
+/* Secondary color */
+
+color: #1F1F1F;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.googlefacebook{
+    display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0px;
+gap: 12px;
+
+width: 212px;
+height: 54px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.google{
+    width: 92px;
+height: 46px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 0;
+flex-grow: 0;
+}
+.vector{
+    width: 92px;
+height: 46px;
+}
+.facebook{
+    width: 108px;
+height: 54px;
+
+
+/* Inside auto layout */
+
+flex: none;
+order: 1;
+flex-grow: 0;
+}
+.vector1{
+    width: 108px;
+    margin-top: 16px;
+}
+.alreadyanuser span{
+    color: rgba(217, 118, 66, 1);
+    text-decoration: underline;
+}
